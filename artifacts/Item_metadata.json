@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract ItemManager",
+						"name": "_parentContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_priceInWei",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "index",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paidWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "priceInWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Item.sol": "Item"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Item.sol": {
+			"keccak256": "0xd80751e5f16022606c66db2b6dfe5dc27f60742a385304aac780b48b8f2393cc",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://9754967d49fa17a25ed33fc746d02968470c51896eacc0bfc2069111e7cae101",
+				"dweb:/ipfs/QmNPBbKpwHwruuBHCRHgZUfbqNevEgFBzwLys83RGvr1Kf"
+			]
+		},
+		"ItemManager.sol": {
+			"keccak256": "0x36a1dd137a6e5ef8bb2c8862e1bd417144058aa792b00a900b7b1b55231536df",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://f68ca4f9a94f45c59f42a61b3f8ac1b1ff010117ca08cdf74367d811bbf5d0c7",
+				"dweb:/ipfs/QmURfdra6rFRcRqUVBk7HrxjPPvGpBwTxcXvVy7Xh7vSvm"
+			]
+		}
+	},
+	"version": 1
+}
